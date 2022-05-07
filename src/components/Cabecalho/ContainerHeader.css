@@ -1,0 +1,44 @@
+header {
+    background: linear-gradient(120deg, #252525, #444);
+}
+
+.btns {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.efeito {
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.efeito-1 {
+    background: #444;
+}
+
+.efeito-1:hover {
+    background: rgb(170, 170, 170);
+    color: white;
+    box-shadow: inset 0 0 0 3px 255;
+}
+.img_logo {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.rodape {
+    background: #444;
+    align-items: center;
+    position: relative;
+}
